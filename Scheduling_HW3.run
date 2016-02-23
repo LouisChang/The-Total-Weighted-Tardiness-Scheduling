@@ -1,0 +1,13 @@
+#with preem
+reset;
+model Scheduling_HW3_2.mod;
+data Scheduling_HW3.dat;
+solve;
+display Obj;
+display x;
+
+#w/o preem
+#reset;
+#model Scheduling_HW3_2.mod;
+#data Scheduling_HW3.dat;
+#display x;
